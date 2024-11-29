@@ -1,16 +1,15 @@
 export const database = [ /* "Banco de dados" de produtos comercializados no site */
     {
         codigoProduto:1,
-        tituloProduto:"Jordan 4 Metalic Gold", 
+        tituloProduto:"Carro", 
         preco: 999.99, 
         descricao:"O Jordan 4 Metallic Gold é uma edição sofisticada do clássico Air Jordan 4, com detalhes dourados metálicos que adicionam luxo ao design. A parte superior é feita de couro branco de alta qualidade, proporcionando um visual clean e moderno. O dourado metálico aparece no logo Jumpman, na gola e na entressola. O tênis mantém o famoso sistema de amortecimento Air-Sole, garantindo conforto e suporte. Ideal para fãs da marca, ele oferece um estilo versátil para ocasiões casuais e sofisticadas. Uma edição limitada, desejada por colecionadores e entusiastas da moda.",
         imagemProduto: {
-            img1:"images/Jordan 4 Metalic Gold.avif",
-            img2:"images/Jordan 4 Metalic Gold - Sola.avif",
-            img3:"images/Jordan 4 Metalic Gold - Direita.avif",
-            img4:"images/Jordan 4 Metalic Gold - Cima.avif",
-            img5:"images/Jordan 4 Metalic Gold - Lado.avif",
-            img6:"images/Jordan 4 Metalic Gold - Costas.avif",
+            img1:"images/my_products/car-ia-shop1.png",
+            img2:"images/my_products/car-ia-shop1.png",
+            img3:"images/my_products/car-ia-shop1.png",
+            img4:"images/my_products/car-ia-shop1.png",
+            img5:"images/my_products/car-ia-shop1.png",
         },
         categoriaProduto: 'Sneakers',
         classificacaoProduto:"Novidades",

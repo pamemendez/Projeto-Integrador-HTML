@@ -1,206 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Venda de Carros</title>
-    <link rel="stylesheet" href="styles/styles.css" />
-    <script src="index.js" defer></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-  </head>
 
-  <body>
-    <!-- header section starts -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Venda de Carros</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+  <script src="scripts/home.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
 
-    <header class="header">
-      <div id="menu-btn" class="fas fa-bars"></div>
-      <a href="#" class="logo"> <span>Drive</span>World</a>
+<body>
+  <!-- header section starts -->
 
-      <nav class="navbar">
-        <a href="#home">home</a>
-        <a href="#vehicles">vehicles</a>
-        <a href="#services">services</a>
-        <a href="#featured">features</a>
-        <a href="#contact">contact</a>
-      </nav>
-      <div id="login-btn">
-        <button class="btn">Login</button>
-        <i class="far fa-user"></i>
+  <header class="header">
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <a href="#" class="logo"> <span>Drive</span>World</a>
+
+    <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#vehicles">vehicles</a>
+      <a href="#services">services</a>
+      <a href="#featured">features</a>
+      <a href="#contact">contact</a>
+    </nav>
+    <div id="login-btn">
+      <button class="btn">Login</button>
+      <i class="far fa-user"></i>
+    </div>
+  </header>
+
+  <!-- header section ends -->
+
+
+  <!-- login form -->
+
+  <div class="login-form-container">
+    <span class="fas fa-times" id="close-login-form"></span>
+
+    <form action="">
+      <h3>user login</h3>
+      <input type="email" placeholder="email" class="box" />
+      <input type="password" placeholder="password" class="box" />
+      <p>forget your password <a href="#">click here</a></p>
+      <input type="submit" value="login now" class="btn" />
+      <p>or login with</p>
+
+      <div class="buttons">
+        <a href="#" class="btn">google</a>
+        <a href="#" class="btn">github</a>
       </div>
-    </header>
+      <p>don't have an account? <a href="#">create one</a></p>
+    </form>
+  </div>
 
-    <!-- header section ends -->
+  <!-- login ends -->
 
+  <!-- home section starts -->
 
-    <!-- login form -->
+  <section class="home" id="home">
+    <h1 class="home-parallax" data-speed="-2">find your vehicle</h1>
+    <img class="home-parallax" src="/images/my_products/home-page.png" alt="" />
+    <a href="#" class="btn home-paeallax" data-speed="7"> explore cars</a>
+  </section>
 
-    <div class="login-form-container">
-      <span class="fas fa-times" id="close-login-form"></span>
+  <!-- home section ends -->
 
-      <form action="">
-        <h3>user login</h3>
-        <input type="email" placeholder="email" class="box" />
-        <input type="password" placeholder="password" class="box" />
-        <p>forget your password <a href="#">click here</a></p>
-        <input type="submit" value="login now" class="btn" />
-        <p>or login with</p>
+   <!-- icons section starts -->
 
-        <div class="buttons">
-          <a href="#" class="btn">google</a>
-          <a href="#" class="btn">github</a>
-        </div>
-        <p>don't have an account? <a href="#">create one</a></p>
-      </form>
+   <section class="icons-container">
+    <div class="icons">
+      <i class="fas fa-home"></i>
+      <div class="content">
+        <h3>150+</h3>
+        <p>branches</p>
+      </div>
     </div>
 
-    <!-- login ends -->
-
-        <!-- home section starts -->
-
-        <section class="home" id="home">
-          <h1 class="home-parallax" data-speed="-2">find your vehicle</h1>
-          <img
-            class="home-parallax"
-
-            src="/images/my_products/home-page.png"
-            alt=""
-          />
-          <a href="#" class="btn home-paeallax" data-speed="7"> explore cars</a>
-        </section>
-    
-        <!-- home section ends -->
-    
-      <div class="slider">
-        <div class="banner">
-          <img src="images/my_CA" />
-          <img src="images/Banner_Dunk_Low.png" />
-          <img src="images/Banner_Dunk_Low.png" />
-        </div>
+    <div class="icons">
+      <i class="fas fa-car"></i>
+      <div class="content">
+        <h3>4770+</h3>
+        <p>cars sold</p>
       </div>
+    </div>
 
-      <div class="promotions-container">
-        <div class="promotion">
-          <img src="images/Jordan 4 Thunder.avif" alt="Promotion 1" />
-          <p>Casual</p>
-        </div>
-        <div class="promotion">
-          <img src="images/NOCTA Black.avif" alt="Promotion 2" />
-          <p>Sports</p>
-        </div>
-        <div class="promotion">
-          <img src="images/Dunk Low Malachite.avif" alt="Promotion 3" />
-          <p>Classic</p>
-        </div>
-        <div class="promotion">
-          <img src="images/Book 1 Haven.avif" alt="Promotion 4" />
-          <p>Basics</p>
-        </div>
+    <div class="icons">
+      <i class="fas fa-users"></i>
+      <div class="content">
+        <h3>590+</h3>
+        <p>happy clients</p>
       </div>
+    </div>
 
-      <div class="bannerSneaker">
-        <img src="images/Promotion-2.png"/>
+    <div class="icons">
+      <i class="fas fa-car"></i>
+      <div class="content">
+        <h3>890+</h3>
+        <p>new cars</p>
       </div>
+    </div>
+  </section>
 
-      <h1 id="news">News</h1>
+  <!-- icons section ends -->
 
-      <section id="section-1" class="section-product-carrousel">
-        <button class="prev">&laquo;</button>
-        <div class="carrousel">
-
-        </div>
-        <button class="next">&raquo;</button>
-      </section>
-
-      <div class="bannerSneaker">
-        <img src="images/Promotion-1.png"/>
-      </div>
-
-      <h1 id="best_sellers">Best sellers</h1>
-
-      <section id="section-2" class="section-product-carrousel">
-        <button class="prev">&laquo;</button>
-        <div class="carrousel">
-
-        </div>
-        <button class="next">&raquo;</button>
-      </section>
-
-      <h1 id="promotions">Promotions</h1>
-
-      <section id="section-3" class="section-product-carrousel">
-        <button class="prev">&laquo;</button>
-        <div class="carrousel">
-          
-        </div>
-        <button class="next">&raquo;</button>
-      </section>
-      
-      <div class="infos">
-        <div class="infoBox">     
-          <h2>Payment Methods</h2>
-          <p>We pay for your purchase in up to 48 interest-free installments on all credit cards or with up to a 5% cash discount.</p>
-        </div>
-        <div class="infoBox">
-          <h2>Our Contacts</h2>
-          <p>Coverage throughout the entire country! No matter where you are.</p>
-          <p>(19)99999-9999</p>
-        </div>
-        <div class="infoBox">
-          <h2>Service</h2>
-          <p>Physical store Open from 08:00 to 20:00 Monday to Friday</p>
-          <p>(19)99999-9999</p>
-        </div>
-      </div>
-      
-      <!-- Inicio do footer -->
-    <footer class="footer">
-      <div class="footer_content">
-          <div class="info_footer">
-              <h3>Return Policy</h3>
-              <p>We believe you should love your new pair of sneakers. If for any reason you are not satisfied, we offer a simple and transparent return policy. You can return or exchange your product within a specific timeframe, ensuring that your shopping experience is always positive.</p>
-          </div>
+  <div class="bannerSneaker">
+    <img src="images/my_products/image1.PNG" alt="Banner Sneaker">
+  </div>
   
-          <div class="info_footer">
-              <h3>Customer Service</h3>
-              <p>Your satisfaction is our priority. Our team is always ready to help, whether it’s to clarify questions about products, sizes, or the purchasing process. Contact us through our chat or email, and we will be pleased to assist you quickly and efficiently.</p>
-          </div>
-  
-          <div class="info_footer">
-              <h3>Leave Your Review</h3>
-              <p>Thank you for visiting our website! Your opinion is very important to us. We invite you to evaluate your experience, our products, and services. Your feedback helps us to continuously improve and offer solutions that meet your needs.</p>
-          </div>
+  <h1 id="news">News</h1>
+
+  <section id="section-1" class="section-product-carrousel">
+    <button class="prev">&laquo;</button>
+    <div class="carrousel">
+
+    </div>
+    <button class="next">&raquo;</button>
+  </section>
+
+  <div class="bannerSneaker">
+    <img src="images/Promotion-1.png" />
+  </div>
+
+  <h1 id="best_sellers">Best sellers</h1>
+
+  <section id="section-2" class="section-product-carrousel">
+    <button class="prev">&laquo;</button>
+    <div class="carrousel">
+
+    </div>
+    <button class="next">&raquo;</button>
+  </section>
+
+  <h1 id="promotions">Promotions</h1>
+
+  <section id="section-3" class="section-product-carrousel">
+    <button class="prev">&laquo;</button>
+    <div class="carrousel">
+
+    </div>
+    <button class="next">&raquo;</button>
+  </section>
+
+  <div class="infos">
+    <div class="infoBox">
+      <h2>Payment Methods</h2>
+      <p>We pay for your purchase in up to 48 interest-free installments on all credit cards or with up to a 5% cash
+        discount.</p>
+    </div>
+    <div class="infoBox">
+      <h2>Our Contacts</h2>
+      <p>Coverage throughout the entire country! No matter where you are.</p>
+      <p>(19)99999-9999</p>
+    </div>
+    <div class="infoBox">
+      <h2>Service</h2>
+      <p>Physical store Open from 08:00 to 20:00 Monday to Friday</p>
+      <p>(19)99999-9999</p>
+    </div>
+  </div>
+
+  <!-- newsletter section stars -->
+
+  <div class="newsletter">
+    <h3>subscribe for latest updates</h3>
+
+    <p>Be the first to know about new releases brand exclusive content.</p>
+
+    <form action="">
+      <input type="email" placeholder="enter your email" name="" id="" />
+      <input type="submit" placeholder="subscribe" name="" id="" />
+    </form>
+  </div>
+  <!-- newsletter section ends -->
+
+
+  <!-- contact section starts -->
+
+  <section class="contact" id="contact">
+    <h1 class="heading"><span>contact</span> us</h1>
+
+    <div class="row">
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.
+          981786228697!2d-47.07069582397221!3d-22.914042638131683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!
+          1s0x94c8c8c794884427%3A0x15a2759628f243d1!2sEscola%20e%20Faculdade%20de%20Tecnologia%20Senai%20Roberto%20Mange
+          !5e0!3m2!1spt-BR!2sbr!4v1729798139102!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+
+      <form action="">
+        <h3>get in touch</h3>
+        <input type="text" placeholder="name" class="box" />
+        <input type="email" placeholder="email" class="box" />
+        <input type="number" placeholder="number" class="box" />
+        <textarea placeholder="message" class="box" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" class="btn" />
+      </form>
+    </div>
+  </section>
+  <!-- contact section ends -->
+
+
+  <!-- footer section starts -->
+
+  <section class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>our branches</h3>
+        <a href="#"> <i class="fas fa-map-maker-alt"></i> alemanha</a>
+        <a href="#"> <i class="fas fa-map-maker-alt"></i> france</a>
+        <a href="#"> <i class="fas fa-map-maker-alt"></i> brazil</a>
+        <a href="#"> <i class="fas fa-map-maker-alt"></i> russa</a>
+        <a href="#"> <i class="fas fa-map-maker-alt"></i> africa</a>
       </div>
-  
-      <div class="footer_icons">
-          <a href="https://www.linkedin.com/in/lucas-bareli-384021293/" target="_blank">
-              <i class="bi bi-linkedin"></i>
-          </a>    
-      
-          <span class="icon_container">
-              <a href="https://www.figma.com/design/hamj7hkitUuVq0Czg0jEob/Ecommerce?node-id=0-1&t=Dx8tAXSYwHN3zBvT-1" target="_blank">
-                  <img class="icons_redes" src="images/Icon Figma.png" alt="Figma">
-              </a>
-          </span>
-      
-          <a href="https://github.com/LucasBareli" target="_blank">
-              <i class="bi bi-github"></i>
-          </a>
+
+      <div class="box">
+        <h3>quik links</h3>
+        <a href="#Home"> <i class="fas fa-arrow-right"></i> home </a>
+        <a href="#vehicles"> <i class="fas fa-arrow-right"></i> vehicle </a>
+        <a href="#services"> <i class="fas fa-arrow-right"></i> services </a>
+        <a href="#featured"> <i class="fas fa-arrow-right"></i> featured </a>
+        <a href="#contact"> <i class="fas fa-arrow-right"></i> contact </a>
       </div>
-      
-      <div class="DireitosReservados">
-        <p>© Campinas, SP - 2024 Lucas Duarte Bareli - All rights reserved.</p>
+
+      <div class="box">
+        <h3>quik links</h3>
+        <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+        <a href="#"> <i class="fas fa-phone"></i> +55-222-3333 </a>
+        <a href="#"> <i class="fas fa-envelope"></i> driveworld@gmail.com </a>
+        <a href="#">
+          <i class="fas fa-map-marker-alt"></i> campinas, brazil - 1300103
+        </a>
       </div>
-      
-  </footer>
-  
+
+      <div class="box">
+        <h3>quick links</h3>
+        <a href="https://github.com/pamemendez" target="_blank">
+          <i class="fab fa-github"></i> github
+        </a>
+        <a href="https://www.linkedin.com/in/pâmella-mendes-47aa5a26b" target="_blank">
+          <i class="fab fa-linkedin"></i> linkedin
+        </a>
+        <a href="#" target="_blank">
+          <i class="fab fa-facebook-f"></i> facebook
+        </a>
+      </div>
+    </div>
+
+    <div class="credit">create by Pâmella Mendes | all rights reserved!</div>
+  </section>
+
+  <!-- footer section ends -->
+
 </body>
+
 </html>
-<!-- Fim do código -->
